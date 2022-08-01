@@ -54,16 +54,10 @@ window.location.hostname-------- devuelve el nombre del dominio del servidor web
 window.location.pathname-------- devuelve la ruta de donde esta el archivo, es lo que viene despues del dominio
 window.location.protocol-------- indica el protocolo de la pagina, https o http
 window.location.asign()-------- 
-window.location.
-window.location.
-window.
-window.
-window.
-window.aa
-window.
-window.
-window.
-window.
+
+
+
+segundo video probema 1        
 
 
 
@@ -71,5 +65,45 @@ window.
 
 
 
+
+let ancho = window.screen.availWidth;
+let alto = window.screen.availHeight;
+comprar = confirm(`El alto es ${alto}, el ancho es ${ancho}`);
+
+if (comprar) {
+  alert("comrpa realizada eitosamente");
+} else {
+  alert("no comraste una mierda");
+}
+
+let href = window.location.href;
+let pathname = window.location.pathname;
+let hostname = window.location.hostname;
+let protocol = window.location.protocol;
+
+let html = `Protocolo: <b>${protocol}</b><br>`;
+html += `hostname: <b>${hostname}</b><br>`;
+html += `pathname: <b>${pathname}</b><br>`;
+html += `URL completa: <b>${href}</b><br>`;
+document.write(html);
+
+
+EVENTOS{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}
+
+
+"click"--------ocurre con un click
+"dbclick"-------- ocurre con un doble click
+"mouseover"-------- ocurre cuando el puntero se mueve sobre un elemento o sobre uno de sus hijos
+"mouseout"--------ocurre cuando se mueve el puntero fuera de un elemento o de sus elementos
+"contextmenu"-------- ocurre con el click derecho para abrir el menu contextual
+"mouseenter"-------- ocurre cuando el puntero se mueve sobre un elemento
+"mouseleave"--------   ocurre cuando el puntero se mueve fuera de un elemento
+"mouseup"-------- ocurre cuando un usuario suelta un oton del mouse sobre un elemnto
+"mousemove"-------- ocurre cuando el puntero se mueve mientras està sobre un elemento
 
 */
+
+const contenedor = document.querySelector(".contenedor");
+contenedor.addEventListener("click", () => {
+  contenedor.classList.toggle("activo");
+});
