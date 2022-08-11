@@ -90,6 +90,7 @@ document.write(html);
 
 EVENTOS{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}
 
+EVENTOS DEL MOUSE
 
 "click"--------ocurre con un click
 "dbclick"-------- ocurre con un doble click
@@ -98,12 +99,62 @@ EVENTOS{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}
 "contextmenu"-------- ocurre con el click derecho para abrir el menu contextual
 "mouseenter"-------- ocurre cuando el puntero se mueve sobre un elemento
 "mouseleave"--------   ocurre cuando el puntero se mueve fuera de un elemento
-"mouseup"-------- ocurre cuando un usuario suelta un oton del mouse sobre un elemnto
+"mouseup"-------- ocurre cuando un usuario suelta un Boton del mouse sobre un elemnto
 "mousemove"-------- ocurre cuando el puntero se mueve mientras està sobre un elemento
+
+EVENTOS DE TECLADO
+
+"keydown"-------- ocurre cuando se suelta una tecla en un elemento
+"keypress"-------- ocurre cuando se presiona una tecla en un elemento
+"onkeyup"-------- ocurre cuando se presiona Y se suelta en un elemento
+
+EVENTOS DE LA INTERFAZ
+
+
+"error"-------- cuando ocurre un error durante la carga de un archivo de multimedia 
+"load"-------- ocurre cuando un objeto se ha cargado, funciona con el window: window.load
+"beforeunload"-------- ocurre cuando te estas por ir del sitio web o del archivo
+"unload"-------- ocurre cuando cuando te fuiste del archivo
+"resize"-------- ocurre cuando cambia la vista del documento, la resolucion cambia
+"scroll"-------- ocurre cuando se escrollea la pagina
+select-------- ocurre despues de que el usuario selecciona algun texto de <input> o <textare>
+
+TEMPORIZADORES{{{{{{{}}}}}}}
+
+setTimeout(()=>{},tiempo)-------- sirve para ejecutar una funcion despues de cierto tiempo indicado, la funcion tambien se puede indivar mediante una variable
+
+clearTimeout(temporizador)-------- sirve para detener la ejecucion del temporizador iniciado y se lo para como parametro
+
+setInterval(funcion,tiempo)-------- sirve para ejecutar una fucnion repetidamente cada un intervalo de tiempo establecido
+
+clearInterval(intervalo)--------  detiene el intevalo iniciado
+
+
+switch-------- sirve para ejecutar una funcion o algo cuando la condicion se cumple, es la que esta dentro del parametro de switch, y ejecuta segun su valor, como un if-else if, el break termina la ejecucion si se cumple alguno de los casos y el default es para que cuando no se cumple ninguna se ejecute algo, es como el else
+
+let cosa = "segudo";
+switch (cosa) {
+  case "primero":
+    alert("fue el primero");
+    break;
+  case "segundo":
+    alert("fue el segundo");
+    break;
+  default:
+    alert("no hizo nada");
+}
+
+
+
+
+
+MANEJO DE EXEPCIONES{{{{{{}}}}}}
+
+una exepcion es un error
+
 
 */
 
-const contenedor = document.querySelector(".contenedor");
-contenedor.addEventListener("click", () => {
-  contenedor.classList.toggle("activo");
-});
+try {
+  
+}

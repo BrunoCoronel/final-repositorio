@@ -1,24 +1,33 @@
-body {
-  display: flex;
-  align-content: center;
-  justify-content: center;
+.navbar {
+  background: rgb(17, 10, 59);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 10, 59, 1) 0%,
+    rgba(29, 43, 253, 1) 50%,
+    rgba(69, 206, 252, 1) 97%
+  );
 }
-h2 {
+.list-group-item {
+  background-color: transparent;
+  border: none;
+}
+#ap {
+  width: 20%;
+  height: 20%;
+}
+.fa-instagram:hover {
+  color: rgb(219, 45, 14);
+}
+.fa-telegram:hover {
   color: blue;
-  background: gray;
-  height: 60px;
-  display: block;
+}
+.fa-github:hover {
+  color: green;
+}
+.fa-at:hover {
+  color: rgb(223, 130, 9);
+}
 
-  width: 100px;
-}
-.contenedor {
-  background: rgb(243, 210, 210);
-  display: block;
-  width: 800px;
-}
-.titulo {
-  display: block;
-}
-.activo {
-  background: red;
-}
+/* .redes {
+  list-style-type: none;
+} */
