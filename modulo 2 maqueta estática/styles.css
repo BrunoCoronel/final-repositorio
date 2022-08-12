@@ -1,0 +1,105 @@
+.navbar {
+  background: rgb(17, 10, 59);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 10, 59, 1) 0%,
+    rgba(29, 43, 253, 1) 50%,
+    rgba(69, 206, 252, 1) 97%
+  );
+}
+.list-group-item {
+  background-color: transparent;
+  border: none;
+}
+#ap {
+  width: 20%;
+  height: 20%;
+}
+.fa-instagram:hover {
+  color: rgb(219, 45, 14);
+}
+.fa-telegram:hover {
+  color: blue;
+}
+.fa-github:hover {
+  color: green;
+}
+.fa-at:hover {
+  color: rgb(223, 130, 9);
+}
+
+/* estilo del modal */
+
+.main-section {
+  margin: 0 auto;
+  margin-top: 25%;
+  padding: 0;
+}
+
+.modal-content {
+  background-color: #3b4652;
+  opacity: 1;
+  padding: 0 20px;
+  box-shadow: 0px 0px 3px #848484;
+}
+.user-img {
+  margin-top: -50px;
+  margin-bottom: 35px;
+}
+
+.user-img img {
+  width: 100xp;
+  height: 100px;
+  box-shadow: 0px 0px 3px #848484;
+  border-radius: 50%;
+}
+
+.form-group input {
+  height: 42px;
+  font-size: 18px;
+  border: 0;
+  padding-left: 54px;
+  border-radius: 5px;
+}
+
+.form-group::before {
+  font-family: "Font Awesome\ 5 Free";
+  position: absolute;
+  left: 28px;
+  font-size: 22px;
+  padding-top: 4px;
+}
+
+.form-group#user-group::before {
+  content: "\f007";
+}
+
+.form-group#password-group::before {
+  content: "\f023";
+}
+
+button {
+  width: 60%;
+  margin: 5px 0 25px;
+}
+
+.forgot {
+  padding: 5px 0;
+}
+
+.forgot a {
+  color: white;
+}
+#sobre-mi {
+  /* margin-top: 28rem; */
+}
+.banner {
+  z-index: -1;
+}
+#sobre-mi {
+  color: antiquewhite;
+}
+.about-me {
+  background-color: #184472;
+  opacity: 0.5;
+}
